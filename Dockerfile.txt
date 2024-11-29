@@ -1,8 +1,8 @@
 FROM         --platform=$TARGETOS/$TARGETARCH debian:bullseye-slim
 
-LABEL        author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL        author="xiaocheng970207" maintainer="xiaocheng970207@gmail.com"
 
-LABEL        org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL        org.opencontainers.image.source="https://github.com/XiaoCheng-4615/fivemdockerimage"
 LABEL        org.opencontainers.image.licenses=MIT
 
 ENV          DEBIAN_FRONTEND noninteractive
